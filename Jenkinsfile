@@ -26,8 +26,8 @@ pipeline {
                  }
              }
              steps {
-                 withSonarQubeEnv('Sonar') {
-                     sh 'mvn gskr25:gskr25'
+                 withSonarQubeEnv('sonar') {
+                     sh 'mvn sonar:sonar'
                  }
              }
          }
