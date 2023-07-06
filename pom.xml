@@ -19,6 +19,8 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<sonar.organization>gskr25</sonar.organization>
+		<sonar.projectKey>gskr25</sonar.projectKey>
+		<sonar.projectName>sample</sonar.projectName>
 	</properties>
 	<dependencies>
 	  <dependency>
