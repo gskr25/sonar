@@ -66,7 +66,7 @@ pipeline {
                     steps {
                         echo 'Build'
 
-                        sh "aws lambda update-function-code --function-name $java-sample --region us-east-1 --s3-bucket sonar25 --s3-key sample-1.0.3.jar"
+                        //sh "aws lambda update-function-code --function-name $java-sample --region us-east-1 --s3-bucket sonar25 --s3-key sample-1.0.3.jar"
                     }
                 }
 
@@ -77,7 +77,7 @@ pipeline {
                     steps {
                         echo 'Build'
 
-                         sh "aws lambda update-function-code --function-name $java-sample --region us-east-1 --s3-bucket sonar25 --s3-key sample-1.0.3.jar"
+                         //sh "aws lambda update-function-code --function-name $java-sample --region us-east-1 --s3-bucket sonar25 --s3-key sample-1.0.3.jar"
                     }
                 }
             }
@@ -99,7 +99,7 @@ pipeline {
                 branch 'main'
             }
             steps {
-                sh "aws lambda update-function-code --function-name $java-sample --region us-east-1 --s3-bucket sonar25 --s3-key sample-1.0.3.jar"
+                //sh "aws lambda update-function-code --function-name $java-sample --region us-east-1 --s3-bucket sonar25 --s3-key sample-1.0.3.jar"
             }
         }
 
